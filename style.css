@@ -319,11 +319,11 @@ body{
   font-size:0.6rem;
   }
   .nav-link:hover{background:rgba(255,255,255,0.3);transform:translateY(-2px)}
-  .logo .brand{font-size:0.5rem;}
+  .logo .brand{font-size:0.3rem;}
  
   
   .hero{padding:150px 0}
-  .hero-content{padding: 150px 24px;}
+  .hero-content{padding: 150px 688px}
   .hero-title{font-size:1.8rem;margin-bottom:10px}
   .hero-subtitle{font-size:1.1rem;margin-bottom:18px}
   

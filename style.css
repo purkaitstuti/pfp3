@@ -52,7 +52,6 @@ body{
 /* NAVBAR */
 .navbar{
   background: linear-gradient(90deg, #31180e 0%, #783d22 50%);
-  backdrop-filter: blur(6px);
   position:sticky;
   top:0;
   z-index:50;
@@ -79,7 +78,6 @@ body{
   font-weight:600;
   transition:all .18s ease;
   font-size:1.05rem;
-  background:rgba(163, 34, 34, 0.15);
 }
 .nav-link:hover{background:rgba(255,255,255,0.3);transform:translateY(-2px)}
 
@@ -95,7 +93,7 @@ body{
 }
 .hero-content{
   text-align:center;
-  padding:150px;
+  padding:300px;
   border-radius:16px;
   width:95%;
   max-width:980px;
@@ -310,11 +308,22 @@ body{
 /* MOBILE - BOXES BELOW EACH OTHER */
 @media (max-width:768px){
   body{font-size:18px}
-  
+  .nav-menu{list-style:none;display:flex;gap: 1px;align-items:center}
+  .nav-link{
+  color:#fff;
+  text-decoration:none;
+  padding:10px 14px;
+  border-radius:8px;
+  font-weight:600;
+  transition:all .18s ease;
+  font-size:0.7rem;
+  }
+  .nav-link:hover{background:rgba(255,255,255,0.3);transform:translateY(-2px)}
+
  
   
   .hero{padding:60px 0}
-  .hero-content{padding:28px 20px}
+  .hero-content{padding: 150px 24px;}
   .hero-title{font-size:1.8rem;margin-bottom:10px}
   .hero-subtitle{font-size:1.1rem;margin-bottom:18px}
   
